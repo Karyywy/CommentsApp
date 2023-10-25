@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #0d1321;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+#logo{
+    width: 90px;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    justify-content: space-evenly; 
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+#input-el,#input-btn{
+    border: none;
+    border-radius: 10px;
+}
+
+
+#input-el{
+    background: #4a4e69;
+    color: #f8f9fa;
+    width: 400px;
+    height: 150px; 
+    margin: 0px 0px 15px 20px; 
+    padding: 20px;
+    resize: none;
+}
+
+button{
+    background: #00a6fb;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 30px 45px; 
+}
+
+button:hover {
+    background-color: #caf0f8;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 110px;
+    padding: 0px;
+    display: grid;
+    gap: 15px;
+}
+
+ul li {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFDF8;
+    color: #0d1321;
+    padding: 15px;
+    text-align: start; 
+}
